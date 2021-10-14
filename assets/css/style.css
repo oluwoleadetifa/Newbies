@@ -1,0 +1,155 @@
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+}
+
+.text-style {
+  font-family: "Red Hat Display", "sans-serif";
+  font-size: 16px;
+}
+
+.big {
+  font-weight: 900;
+}
+
+.medium {
+  font-weight: 700;
+}
+
+.small {
+  font-weight: 500;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-vertical {
+  flex-direction: column;
+}
+
+.flex-space {
+  justify-content: space-around;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.top-curve {
+  border-radius: 23px 23px 0px 0px;
+}
+
+.bottom-curve {
+  border-radius: 0px 0px 23px 23px;
+}
+
+.full-curve {
+  border-radius: 12px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-85 {
+  width: 85%;
+}
+
+.content {
+  width: 100%;
+}
+
+.container {
+  width: 20em;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+.pale-bg {
+  background-color: hsl(225, 100%, 98%);
+}
+
+.blue-bg {
+  background-color: hsl(245, 75%, 52%);
+}
+
+.white {
+  color: #ffffff;
+}
+
+.pale-blue {
+  color: hsl(223, 47%, 23%);
+}
+
+.top-large-space {
+  margin-top: 3em;
+}
+.top-space {
+  margin-top: 2em;
+}
+
+.bottom-space {
+  margin-bottom: 1.2em;
+}
+button {
+  border: none;
+}
+
+button:hover {
+  background-color: hsl(225, 100%, 94%);
+}
+
+a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+a {
+  text-decoration: none;
+}
+.top-pad {
+  padding-top: 1em;
+}
+
+.bottom-pad {
+  padding-bottom: 1em;
+}
+
+.plan {
+  padding-top: 12px;
+}
+
+.year {
+  padding-bottom: 12px;
+}
+
+.change {
+  padding-top: 17px;
+}
+
+.icon {
+  padding-top: 11px;
+}
+
+.text-small {
+  font-size: 12px;
+}
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+  }
+
+  .container {
+    width: 85%;
+  }
+}
